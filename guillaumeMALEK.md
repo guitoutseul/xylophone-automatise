@@ -8,3 +8,10 @@ J'ai donc cherché comment lire un fichier MIDI et trouvé ce logiciel : http://
 
 Il y a également un site qui permet de transformer une piste d'un fichier MIDI en un code lisible en arduino (pas encore testé) :
 https://extramaster.net/tools/midiToArduino/
+
+
+
+compte rendu du 18/01/2018
+
+Séquenseur MIDI : https://www.reaper.fm/index.php
+redirection de l'output d'un logiciel vers un autre (pour rediriger l'output d'un sequenseur MIDI vers l'arduino) :http://jackaudio.org/
