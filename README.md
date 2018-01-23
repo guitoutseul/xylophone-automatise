@@ -4,5 +4,9 @@ Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Po
 
 
 
-# xylophone-automatis-
-Le xylophone est frappé automatiquement par des maillets en lisant un fichier MIDI
+# xylophone-automatisé
+Le xylophone est frappé automatiquement par des maillets en lisant un fichier MIDI, fichier qui contient toutes les informations sur la composition d'une musique.
+
+Le traitement de l'information MIDI va se faire à partir d'un sequenceur MIDI, qui va comprendre cette information et me revoyer une suite binaire. Il faudra que je lie la sortie de ce sequenceur à l'entrée de l'arduino à l'aide d'un logiciel tierce. Ainsi, quand je lirais le fichier en direct a partir du sequenceur, j'obtiendrais les informations (en binaire) sur l'arduino de ce qui est joué en temps réel.
+Il faudra ensuite ecrire un programme pour transformer cette suite binaire en un message compréhensible.
+A partir de ce moment, je m'interesserais à l'aspect mecanique du projet, c'est à dire la mécanisation du xylophone.
