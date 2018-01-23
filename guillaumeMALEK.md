@@ -13,5 +13,5 @@ https://extramaster.net/tools/midiToArduino/
 
 compte rendu du 18/01/2018
 
-Je vais plutot me tourner vers un séquenseur MIDI (reaper): https://www.reaper.fm/index.php pour traiter le fichier MIDI. Pour pouvoir rediriger l'output du logiciel vers un autre (pour rediriger l'output du sequenseur MIDI vers l'arduino) j'ai trouvé le logiciel JACK 2 :http://jackaudio.org/
+Je vais plutot me tourner vers un séquenceur MIDI (reaper): https://www.reaper.fm/index.php pour traiter le fichier MIDI. Pour pouvoir rediriger l'output du logiciel vers un autre (pour rediriger l'output du sequenceur MIDI vers l'arduino) j'ai trouvé le logiciel JACK 2 :http://jackaudio.org/
 Il faut encore configurer les logiciels entre eux pour pouvoir obtenir les informations sur l'arduino. La musique sera jouée en temps réelle a partir du sequenseur et les informations seront traités en temps réel.
