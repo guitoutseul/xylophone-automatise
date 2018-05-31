@@ -7,4 +7,4 @@ Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Po
 # Instrument-automatisé
 Nous avons choisi d'automatiser un xylophone métallique (Glockenspiel). A partir d'un programme C, on transforme une partition écrite en XML en .txt. Le fichier texte va ensuite etre lu par le programme arduino, qui va permettre à chacune de ses sorties d'etre associée à une note particulière du xylophone.
 
-![Alt text](Documents/xylophone.jpg?raw=true "Title")
+![Alt text](C:\Users\user\Documents\xylophone.jpg?raw=true "Title")
