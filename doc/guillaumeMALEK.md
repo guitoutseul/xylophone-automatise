@@ -20,11 +20,11 @@ J'ai demandé de l'aide à Jean-Baptiste NIRASCOU, qui a participé aux projets 
 
 compte rendu du 09/02/2018
 
-M.Masson m'a mis en contact avec une étudiante en élec4 (Lucie GRANDBOUCHE) qui partage presque le même projet que moi. Nous avons choisi de collaborer ensemble pour réaliser le même projet. Désormais, mes séances de projet auront lieu tous les vendredi de 13h à 16h. Au lieu de partir d'un fichier MIDI, elle part d'une partition XML. Elle s'occupera de transformer ce fichier XML en fichier texte à l'aide d'un programme C. Ce fichier texte comprendra toutes les notes de la musique les unes apres les autres. Mon role sera désormait de faire la partie branchement électrique du projet ainsi que la partie programmation arduino. Je m'attaque d'abord aux branchements. Mon but est d'étendre le nombre de sorties de l'arduino en utilisant un registre à décallage (74hc595). Je passe donc ma séance à m'imprénier du nouveau projet, comprendre les tenant et aboutissants, et je me renseigne sur le fonctionnement des registres à décallage.
+M.Masson m'a mis en contact avec une étudiante en élec4 (Lucie GRANDBOUCHE) qui partage presque le même projet que moi. Nous avons choisi de collaborer ensemble pour réaliser le même projet. Désormais, mes séances de projet auront lieu tous les vendredi de 13h à 16h. Au lieu de partir d'un fichier MIDI, elle part d'une partition XML. Elle s'occupera de transformer ce fichier XML en fichier texte à l'aide d'un programme C. Ce fichier texte comprendra toutes les notes de la musique les unes apres les autres. Mon role sera désormait de faire la partie branchement électrique du projet ainsi que la partie programmation arduino. Je m'attaque d'abord aux branchements. Mon but est d'étendre le nombre de sorties de l'arduino en utilisant un registre à décallage (74hc595). Je passe donc ma séance à m'imprénier du nouveau projet, comprendre les tenant et aboutissants, et je me renseigne sur le fonctionnement des registres à décallage. Le branchement du registre à décallage est terminé
 
 compte rendu du 16/02/2018
 
-Le branchement du registre à décallage est terminé. Je le teste en essayant d'allumer des leds connectés à ce registre. Elles s'allument correctement. Je fais ensuite le branchement du deuxieme registre à décallage (pour pouvoir avoir 16 sorties, 8 sortie par registre). les deux registres fonctionnent ensemble, donc les 16 sorties aussi. Comme les registres envoient en sortie un courant trop faible, je dois connecter chaque sortie du registre à décallage à un transistor darlington pour amplifier le courant. Avant de réaliser le montage, je souhaite commencer la programmation du projet. Le but pour moi est tout d'abord de lire un fichier texte depuis l'ordinateur et de le transmettre sur l'arduino (cela s'apparente un peu à la semaine 04, ou je devais lier la sortie de JACK 2 à l'arduino, sauf que la je dois lier un fichier texte à l'arduino). Apres beaucoup de recherches sur internet, je vois beaucoup parler de "processing" pour lire un fichier texte sur l'arduino. Il faudrait donc que je lise le fichier texte à partir de processing, et que je l'envoie en temps direct à l'arduino pour que ce dernier recoive les données du fichier texte.
+Je code le fonctionnement du registre à décallage (je ne savais pas qu'il y avait des fonctions toutes faites pour faire fonctionner le registre à décallage) . Le programme fini, je le teste en essayant d'allumer des leds connectés à ce registre. Elles s'allument correctement. Je fais ensuite le branchement du deuxieme registre à décallage (pour pouvoir avoir 16 sorties, 8 sortie par registre). les deux registres fonctionnent ensemble, donc les 16 sorties aussi. Comme les registres envoient en sortie un courant trop faible, je dois connecter chaque sortie du registre à décallage à un transistor darlington pour amplifier le courant. Avant de réaliser le montage, je souhaite commencer la programmation du projet. Le but pour moi est tout d'abord de lire un fichier texte depuis l'ordinateur et de le transmettre sur l'arduino (cela s'apparente un peu à la semaine 04, ou je devais lier la sortie de JACK 2 à l'arduino, sauf que la je dois lier un fichier texte à l'arduino). Apres beaucoup de recherches sur internet, je vois beaucoup parler de "processing" pour lire un fichier texte sur l'arduino. Il faudrait donc que je lise le fichier texte à partir de processing, et que je l'envoie en temps direct à l'arduino pour que ce dernier recoive les données du fichier texte.
 
 compte rendu du 23/02/2018
 
@@ -36,12 +36,21 @@ Absent à cause d'un vol d'avion pour rentrer chez moi en Lorraine.
 
 compte rendu du 16/03/2018
 
+J'ai continué à me prendre la tête avec processing qui refuse catégoriquement d'envoyer les informations du fichier texte vers arduino. Je me demande si ce n'est pas un probleme d'encodage du fichier texte qui fait que processing n'arrive pas à bien comprendre que les lignes du fichier texte sont bien des Strings. Je m'occupe donc du reste du programme et laisse cette partie de coté. Je décide de coder la partie arduino. 
 
+compte rendu du 23/04/2018
+
+J'apprends que l'on utilise une carte sd pour lire les informations du fichier texte. J'aurais donc perdu énormément de temps à essayer de faire fonctionner mon programme avec processing. Je sais maintenant que j'aurais du plus communiquer avec mes deux partenaires qui font la meme partie que moi. Je me renseigne donc sur le fonctionnement de la carte sd et sur comment lire un fichier depuis une carte sd. J'ai de nouveau des problemes avec la lecture des Strings, et je commence à vraiment m'inquiéter quant à l'issue du projet car je n'arrive pas à régler ce probleme.
+
+compte rendu du 30/04/2018
+
+Absent à cause d'un vol d'avion.
 
 compte rendu du 06/04/2018
 
 Ma présentation de mi-parcours s'est fait le 06/04/2018 et non le 05/04/2018. J'ai en effet eu la possibilité de faire ma présentation devant les élec4 en anglais.
 
+compte rendu du 13/04/2018
 
 
 
