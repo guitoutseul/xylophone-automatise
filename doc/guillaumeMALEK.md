@@ -60,8 +60,18 @@ Absent à cause d'un vol d'avion
 
 compte rendu du 04/05/2018
 
+Le projet est opérationnel, le xylophone fonctionne comme il faut et nous avons pu jouer des premières musiques. Le programme de Lucie n'implémente pas encore les accords, et pour des raisons obscures, certaines notes sont décallées par rapport à d'autres dans le fichier texte. Je passe donc la séance à refaire les fichiers textes à la main pour avoir des musiques sans erreures.
 
+compte rendu du 18/04/2018
 
+Meme chose que la derniere séance.
 
+compte rendu du 25/04/2018
+
+Création d'une chaine youtube pour pouvoir partager les musiques jouées : https://www.youtube.com/channel/UC4oZE01wRy3X29gztx1tV-g
+
+compte rendu du 01/04/2018
+
+présentation finale du projet.
 
 
