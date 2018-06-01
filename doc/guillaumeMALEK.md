@@ -40,7 +40,7 @@ J'ai continué à me prendre la tête avec processing qui refuse catégoriquemen
 
 compte rendu du 23/04/2018
 
-J'apprends que l'on utilise une carte sd pour lire les informations du fichier texte. J'aurais donc perdu énormément de temps à essayer de faire fonctionner mon programme avec processing. Je sais maintenant que j'aurais du plus communiquer avec mes deux partenaires qui font la meme partie que moi. Je me renseigne donc sur le fonctionnement de la carte sd et sur comment lire un fichier depuis une carte sd. J'ai de nouveau des problemes avec la lecture des Strings, et je commence à vraiment m'inquiéter quant à l'issue du projet car je n'arrive pas à régler ce probleme.
+J'apprends que l'on utilise une carte sd pour lire les informations du fichier texte. J'aurais donc perdu énormément de temps à essayer de faire fonctionner mon programme avec processing. Je sais maintenant que j'aurais du plus communiquer avec mes deux partenaires qui font la meme partie que moi. Je me renseigne donc sur le fonctionnement de la carte sd et sur comment lire un fichier depuis une carte sd. J'ai de nouveau des problemes avec la lecture des Strings, et je commence à vraiment m'inquiéter quant à l'issue du projet car je n'arrive pas à régler ce probleme. je décide donc de continuer le branchement électrique en rajoutant deux transistors Darlington pour amplifier le signal de sortie des registres à décallage.
 
 compte rendu du 30/04/2018
 
@@ -52,7 +52,13 @@ Ma présentation de mi-parcours s'est fait le 06/04/2018 et non le 05/04/2018. J
 
 compte rendu du 13/04/2018
 
+Le 12/04/2018, M.Masson nous a aidé dans notre projet en nous fournissant une version fonctionnelle du programme et du branchement électrique (je le remercie grandement !). En clair, il s'est occupé de faire ma partie. Je ne cache pas que j'ai un peu honte de ne pas avoir réussi à avancer comme je le voulais, et que M.Masson a du prendre de grandes initiatives pour nous aider. Nous nous attaquons donc à la partie mécanique du projet. la structure est faite en bois avec tes trous carrés de la largeur des solénoides. Une deuxieme structure en bois vient se caler contre la première pour bloquer les solénoides et les faire tenir. Les trous, et donc les solénoides sont alignés avec les lames métalliques du Glockenspiel. Le but est de connecter chacune des 13 solénoides au transistor Darlington.
 
+compte rendu du 20/04/2018
+
+Absent à cause d'un vol d'avion
+
+compte rendu du 04/05/2018
 
 
 
